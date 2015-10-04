@@ -1,0 +1,8 @@
+/*thecodeplayer.com*/
+
+/*basic reset*/
+*{margin:0; padding:0;}
+
+/*adding black background to the body to make things clearer*/
+body{background-color: black;}
+canvas{display: block;}
