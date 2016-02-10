@@ -1,0 +1,34 @@
+h2{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body{
+    text-align: center;
+}
+
+button{
+    width: 120px;
+    height: 20px;
+    font-size: 12px;
+}
+
+#container{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#display_text, #map_desc_text{
+    width: 425px;
+    height: 220px;
+}
+#maze, #console{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+#table_btn_panel{
+    margin: 0 auto;
+    text-align: center;
+}
