@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Simulator</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+    <h2>The Simulator</h2>
+    <div id="container">
+        <div id="maze">
+            <canvas id="canvas" width="425" height="550" >
+            </canvas>
+        </div>
+        <div id="console">
+            <h3>Console for Map Descriptor</h3>
+            <textarea id="map_desc_text"></textarea>
+
+            <h3>Console for Fastest Path </h3>
+            <textarea id="display_text"></textarea>
+        </div>
+    </div>
+
+    <div id="button_panel">
+        <table id="table_btn_panel">
+            <tr>
+                <td><button id="explore_btn">Explore</button></td>
+                <td><button id="fastest_path_btn">Fastest Path</button></td>
+                <td><button id="map_desc_btn">Gen Map Descr</button></td>
+                <td><button id="reset_map_btn">Reset Map</button></td>
+                <td><button id="save_map_btn">Save Map</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><strong>Start Pos</strong></td>
+                <td colspan="2"><strong>End Pos</strong></td>
+            </tr>
+            <tr>
+                <td>start x pos:</td>
+                <td><input type="text" id="start_pos_x" placeholder="start pos x" value="2"></td>
+                <td>end x pos:</td>
+                <td><input type="text" id="end_pos_x" placeholder="end pos x" value="14"></td>
+            </tr>
+            <tr>
+                <td>start y pos:</td>
+                <td><input type="text" id="start_pos_y" placeholder="start pos y" value="19"></td>
+                <td>end y pos:</td>
+                <td><input type="text" id="end_pos_y" placeholder="end pos y" value="2"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="update_start_pos_btn">Update Start Pos</button></td>
+                <td colspan="2"><button id="update_end_pos_btn">Update Goal Pos</button></td>
+            </tr>
+        </table>
+
+
+    </div>
+        <script type="text/javascript" src="definition.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
